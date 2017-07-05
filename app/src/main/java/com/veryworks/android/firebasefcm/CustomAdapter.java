@@ -17,7 +17,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.Holder>{
     IParent parent;
     List<Uid> data = new ArrayList<>();
 
-    public CustomAdapter(IParent parent){
+    public CustomAdapter(IParent parent){ // <- MainActivity imple IParent
         this.parent = parent;
     }
 
