@@ -40,14 +40,9 @@ public class MainActivity extends AppCompatActivity implements CustomAdapter.IPa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setUidToServer();
         setWidget();
         setRecycler();
         setFirebaseListener();
-    }
-
-    private void setUidToServer(){
-
     }
 
     private void setWidget(){
